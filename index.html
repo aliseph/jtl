@@ -1,79 +1,262 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+<head lang="zh-cn">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Jtl : jintelai">
+	<title>金特莱</title>
+	<meta name="description" content="金特莱" />
+	<meta name="keywords" content="themes, bootstrap, free, templates, bootstrap 3, freebie,">
+	<link rel="stylesheet" type="text/css" href="http://ikeii.u.qiniudn.com/munter/css/bootstrap.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="/idemo/static/login/images/favicon.ico">
+	<link rel="stylesheet" href="http://ikeii.u.qiniudn.com/munter/fancybox/jquery.fancybox-v=2.1.5.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="http://ikeii.u.qiniudn.com/munter/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="http://ikeii.u.qiniudn.com/munter/css/style.css">
+	<link rel="prefetch" href="http://ikeii.u.qiniudn.com/munter/images/zoom.png">
+</head>
+<body>
+	<div class="navbar navbar-fixed-top" data-activeslide="1">
+		<div class="container">
+			<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+			<div class="nav-collapse collapse navbar-responsive-collapse">
+				<ul class="nav row">
+                    <li data-slide="1" class="col-12 col-sm-2"><a id="menu-link-1" href="#slide-home" title="主页"><span class="icon icon-home"></span> <span class="text">主页</span></a></li>
+                    <li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-about" title="关于"><span class="icon icon-info"></span> <span class="text">关于</span></a></li>
+                    <li data-slide="3" class="col-12 col-sm-2"><a id="menu-link-3" href="#slide-project" title="产品"><span class="icon icon-gear"></span> <span class="text">产品</span></a></li>
+                    <li data-slide="4" class="col-12 col-sm-2"><a id="menu-link-4" href="#slide-technology" title="技术"><span class="icon icon-linux"></span> <span class="text">技术</span></a></li>
+                    <li data-slide="5" class="col-12 col-sm-2"><a id="menu-link-5" href="#slide-open" title="开放"><span class="icon icon-github-sign"></span> <span class="text">开放</span></a></li>
+                    <li data-slide="6" class="col-12 col-sm-2"><a id="menu-link-6" href="#slide-contact" title="联系"><span class="icon icon-envelope"></span> <span class="text">联系</span></a></li>
+				</ul>
+				<div class="row">
+					<div class="col-sm-2 active-menu"></div>
+				</div>
+			</div><!-- /.nav-collapse -->
+		</div><!-- /.container -->
+	</div><!-- /.navbar -->
 
-    <title>Jtl</title>
-  </head>
+	<!-- === Arrows === -->
+	<div id="arrows">
+		<div id="arrow-up" class="disabled"></div>
+		<div id="arrow-down"></div>
+		<div id="arrow-left" class="disabled visible-lg"></div>
+		<div id="arrow-right" class="disabled visible-lg"></div>
+	</div><!-- /.arrows -->
 
-  <body>
+	<!-- === MAIN Background === -->
+	<div class="slide story" id="slide-1" data-slide="1">
+		<div class="container">
+			<div id="home-row-1" class="row clearfix">
+				<div class="col-12">
+					<h1 class="font-semibold">可蚁 <span class="font-thin">在线</span></h1>
+					<h4 class="font-thin">欢迎，这是一个自由工作者团队的展示网站！
+ <span class="font-semibold">他们相信未来！</span></h4>
+					<br>
+					<br>
+				</div><!-- /col-12 -->
+			</div><!-- /row -->
+			<div id="home-row-2" class="row clearfix">
+				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="4"><img src="http://ikeii.u.qiniudn.com/munter/images/s02.png"></div><span>专业</span></div>
+				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="3"><img src="http://ikeii.u.qiniudn.com/munter/images/s01.png"></div><span>友好</span></div>
+				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="5"><img src="http://ikeii.u.qiniudn.com/munter/images/s03.png"></div><span>开放</span></div>
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /slide1 -->
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/aliseph/jtl">View on GitHub</a>
+	<!-- === Slide 2 === -->
+	<div class="slide story" id="slide-2" data-slide="2">
+		<div class="container">
+			<div class="row title-row">
+				<div class="col-12 font-thin">可蚁团队是的 <span class="font-semibold">“可以”</span> 的</div>
+			</div><!-- /row -->
+			<div class="row line-row">
+				<div class="hr"> </div>
+			</div><!-- /row -->
+			<div class="row subtitle-row">
+				<div class="col-12 font-thin">以下是制作的网站</div>
+			</div><!-- /row -->
+			<div class="row content-row">
+				<div class="col-12 col-lg-3 col-sm-6">
+					<p><i class="icon icon-eye-open"></i></p>
+					<h2 class="font-thin">Visual <span class="font-semibold">Identity</span></h2>
+					<h4 class="font-thin">天堂寨水云天旅行社官方网站</h4>
+				</div><!-- /col12 -->
+				<div class="col-12 col-lg-3 col-sm-6">
+					<p><i class="icon icon-laptop"></i></p>
+					<h2 class="font-thin">Web <span class="font-semibold">Design</span></h2>
+					<h4 class="font-thin">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
+				</div><!-- /col12 -->
+				<div class="col-12 col-lg-3 col-sm-6">
+					<p><i class="icon icon-tablet"></i></p>
+					<h2 class="font-thin">Mobile <span class="font-semibold">Apps</span></h2>
+					<h4 class="font-thin">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
+				</div><!-- /col12 -->
+				<div class="col-12 col-lg-3 col-sm-6">
+					<p><i class="icon icon-pencil"></i></p>
+					<h2 class="font-semibold">Development</h2>
+					<h4 class="font-thin">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
+				</div><!-- /col12 -->
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /slide2 -->
 
-          <h1 id="project_title">Jtl</h1>
-          <h2 id="project_tagline">jintelai</h2>
+	<!-- === SLide 3 - Portfolio -->
+	<div class="slide story" id="slide-3" data-slide="3">
+		<div class="row">
+			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="http://ikeii.u.qiniudn.com/munter/images/portfolio/p01-large.jpg"><img class="thumb" src="http://ikeii.u.qiniudn.com/munter/images/portfolio/p01-small.jpg" alt=""></a></div>
+			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="http://ikeii.u.qiniudn.com/munter/images/portfolio/p02-large.jpg"><img class="thumb" src="http://ikeii.u.qiniudn.com/munter/images/portfolio/p02-small.jpg" alt=""></a></div>
+			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="http://ikeii.u.qiniudn.com/munter/images/portfolio/p09-large.jpg"><img class="thumb" src="http://ikeii.u.qiniudn.com/munter/images/portfolio/p09-small.jpg" alt=""></a></div>
+			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="http://ikeii.u.qiniudn.com/munter/images/portfolio/p010-large.jpg"><img class="thumb" src="http://ikeii.u.qiniudn.com/munter/images/portfolio/p10-small.jpg" alt=""></a></div>
+			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="http://ikeii.u.qiniudn.com/munter/images/portfolio/p05-large.jpg"><img class="thumb" src="http://ikeii.u.qiniudn.com/munter/images/portfolio/p05-small.jpg" alt=""></a></div>
+			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="http://ikeii.u.qiniudn.com/munter/images/portfolio/p06-large.jpg"><img class="thumb" src="http://ikeii.u.qiniudn.com/munter/images/portfolio/p06-small.jpg" alt=""></a></div>
+			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="http://ikeii.u.qiniudn.com/munter/images/portfolio/p07-large.jpg"><img class="thumb" src="http://ikeii.u.qiniudn.com/munter/images/portfolio/p07-small.jpg" alt=""></a></div>
+			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="http://ikeii.u.qiniudn.com/munter/images/portfolio/p08-large.jpg"><img class="thumb" src="http://ikeii.u.qiniudn.com/munter/images/portfolio/p08-small.jpg" alt=""></a></div>
+			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="http://ikeii.u.qiniudn.com/munter/images/portfolio/p03-large.jpg"><img class="thumb" src="http://ikeii.u.qiniudn.com/munter/images/portfolio/p03-small.jpg" alt=""></a></div>
+			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="http://ikeii.u.qiniudn.com/munter/images/portfolio/p04-large.jpg"><img class="thumb" src="http://ikeii.u.qiniudn.com/munter/images/portfolio/p04-small.jpg" alt=""></a></div>
+			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="http://ikeii.u.qiniudn.com/munter/images/portfolio/p11-large.jpg"><img class="thumb" src="http://ikeii.u.qiniudn.com/munter/images/portfolio/p11-small.jpg" alt=""></a></div>
+			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="http://ikeii.u.qiniudn.com/munter/images/portfolio/p12-large.jpg"><img class="thumb" src="http://ikeii.u.qiniudn.com/munter/images/portfolio/p12-small.jpg" alt=""></a></div>
+		</div><!-- /row -->
+	</div><!-- /slide3 -->
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/aliseph/jtl/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/aliseph/jtl/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+	<!-- === Slide 4 - Process === -->
+	<div class="slide story" id="slide-4" data-slide="4">
+		<div class="container">
+			<div class="row title-row">
+				<div class="col-12 font-thin">See us <span class="font-semibold">at work</span></div>
+			</div><!-- /row -->
+			<div class="row line-row">
+				<div class="hr"> </div>
+			</div><!-- /row -->
+			<div class="row subtitle-row">
+				<div class="col-sm-1 hidden-sm"> </div>
+				<div class="col-12 col-sm-10 font-light">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</div>
+				<div class="col-sm-1 hidden-sm"> </div>
+			</div><!-- /row -->
+			<div class="row content-row">
+				<div class="col-sm-1 hidden-sm"> </div>
+				<div class="col-12 col-sm-2">
+					<p><i class="icon icon-bolt"></i></p>
+					<h2 class="font-thin">Listening to<br><span class="font-semibold" >your needs</span></h2>
+					<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4>
+				</div><!-- /col12 -->
+				<div class="col-12 col-sm-2">
+					<p><i class="icon icon-cog"></i></p>
+					<h2 class="font-thin">Project<br><span class="font-semibold">discovery</span></h2>
+					<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4>
+				</div><!-- /col12 -->
+				<div class="col-12 col-sm-2">
+					<p><i class="icon icon-cloud"></i></p>
+					<h2 class="font-thin">Storming<br><span class="font-semibold">our brains</span></h2>
+					<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4>
+				</div><!-- /col12 -->
+				<div class="col-12 col-sm-2">
+					<p><i class="icon icon-map-marker"></i></p>
+					<h2 class="font-thin">Getting<br><span class="font-semibold">there</span></h2>
+					<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4>
+				</div><!-- /col12 -->
+				<div class="col-12 col-sm-2">
+					<p><i class="icon icon-gift"></i></p>
+					<h2 class="font-thin">Delivering<br><span class="font-semibold">the product</span></h2>
+					<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4>
+				</div><!-- /col12 -->
+				<div class="col-sm-1 hidden-sm"> </div>
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /slide4 -->
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+	<!-- === Slide 5 === -->
+	<div class="slide story" id="slide-5" data-slide="5">
+		<div class="container">
+			<div class="row title-row">
+				<div class="col-12 font-thin"><span class="font-semibold">Clients</span> we’ve worked with</div>
+			</div><!-- /row -->
+			<div class="row line-row">
+				<div class="hr"> </div>
+			</div><!-- /row -->
+			<div class="row subtitle-row">
+				<div class="col-sm-1 hidden-sm"> </div>
+				<div class="col-12 col-sm-10 font-light">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. <br/><br/> The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero.</div>
+				<div class="col-sm-1 hidden-sm"> </div>
+			</div><!-- /row -->
+			<div class="row content-row">
+				<div class="col-1 col-sm-1 hidden-sm"> </div>
+				<div class="col-12 col-sm-2"><img src="http://ikeii.u.qiniudn.com/munter/images/client01.png" alt=""></div>
+				<div class="col-12 col-sm-2"><img src="http://ikeii.u.qiniudn.com/munter/images/client02.png" alt=""></div>
+				<div class="col-12 col-sm-2"><img src="http://ikeii.u.qiniudn.com/munter/images/client03.png" alt=""></div>
+				<div class="col-12 col-sm-2"><img src="http://ikeii.u.qiniudn.com/munter/images/client04.png" alt=""></div>
+				<div class="col-12 col-sm-2"><img src="http://ikeii.u.qiniudn.com/munter/images/client05.png" alt=""></div>
+				<div class="col-1 col-sm-1 hidden-sm"> </div>
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /slide5 -->
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+	<!-- === Slide 6 / Contact === -->
+	<div class="slide story" id="slide-6" data-slide="6">
+		<div class="container">
+			<div class="row title-row">
+				<div class="col-12 font-light">给可蚁发 <span class="font-semibold">邮件</span></div>
+			</div><!-- /row -->
+			<div class="row line-row">
+				<div class="hr"> </div>
+			</div><!-- /row -->
+			<div class="row subtitle-row">
+				<div class="col-sm-1 hidden-sm"> </div>
+				<div class="col-12 col-sm-10 font-light">稍作了解后是不是对可蚁比较感兴趣呢？那就赶快联系可蚁吧。</div>
+				<div class="col-sm-1 hidden-sm"> </div>
+			</div><!-- /row -->
+			<div id="contact-row-4" class="row">
+				<div class="col-12 col-sm-3 with-hover-text">
+					<p><a target="_blank" href="#"><i class="icon icon-phone"></i></a></p>
+					<span class="hover-text font-light ">13333333333</span></a>
+				</div><!-- /col12 -->
+				<div class="col-12 col-sm-3 with-hover-text">
+					<p><a target="_blank" href="#"><i class="icon icon-envelope"></i></a></p>
+					<span class="hover-text font-light ">ki@ikeii.com</span></a>
+				</div><!-- /col12 -->
+				<div class="col-12 col-sm-3 with-hover-text">
+					<p><a target="_blank" href="#"><i class="icon icon-home"></i></a></p>
+					<span class="hover-text font-light ">http://www.ikeii.com</span></a>
+				</div><!-- /col12 -->
+				<div class="col-12 col-sm-3 with-hover-text">
+					<p><a target="_blank" href="#"><i class="icon icon-weibo"></i></a></p>
+					<span class="hover-text font-light "><wb:follow-button uid="3306123923" type="red_1" width="67" height="24" >金特莱</wb:follow-button></span></a>
+				</div><!-- /col12 -->
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /Slide 6 -->
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+</body>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+	<!-- SCRIPTS -->
+	<script src="http://ikeii.u.qiniudn.com/munter/js/html5shiv.js"></script>
+	<script src="http://ikeii.u.qiniudn.com/munter/js/jquery-1.10.2.min.js"></script>
+	<script src="http://ikeii.u.qiniudn.com/munter/js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="http://ikeii.u.qiniudn.com/munter/js/bootstrap.min.js"></script>
+	<script src="http://ikeii.u.qiniudn.com/munter/js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="http://ikeii.u.qiniudn.com/munter/fancybox/jquery.fancybox.pack-v=2.1.5.js"></script>
+	<script src="http://ikeii.u.qiniudn.com/munter/js/script.js"></script>
+	<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+	<!-- fancybox init -->
+	<script>
+	$(document).ready(function(e) {
+		var lis = $('.nav > li');
+		menu_focus( lis[0], 1 );
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+		$(".fancybox").fancybox({
+			padding: 10,
+			helpers: {
+				overlay: {
+					locked: false
+				}
+			}
+		});
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Jtl maintained by <a href="https://github.com/aliseph">aliseph</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+	});
+	</script>
 </html>
